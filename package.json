@@ -4,8 +4,36 @@
   "description": "Zero-dep string similarity algorithms: Levenshtein, Jaro-Winkler, Sørensen-Dice, Hamming, n-gram, Soundex, Metaphone",
   "type": "module",
   "main": "src/index.js",
-  "bin": { "strsim": "src/cli.js" },
-  "scripts": { "test": "node --test test/" },
-  "keywords": ["string", "similarity", "levenshtein", "jaro-winkler", "fuzzy", "distance", "soundex", "hamming", "ngram"],
-  "license": "MIT"
+  "bin": {
+    "strsim": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.js"
+  },
+  "keywords": [
+    "string",
+    "similarity",
+    "levenshtein",
+    "jaro-winkler",
+    "fuzzy",
+    "distance",
+    "soundex",
+    "hamming",
+    "ngram"
+  ],
+  "license": "MIT",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": "https://github.com/sulthonzh/string-similarity",
+  "homepage": "https://github.com/sulthonzh/string-similarity#readme",
+  "bugs": {
+    "url": "https://github.com/sulthonzh/string-similarity/issues"
+  },
+  "author": "Sulthon Zhulmi",
+  "engines": {
+    "node": ">=18"
+  }
 }
