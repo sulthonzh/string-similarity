@@ -30,7 +30,7 @@ jobs:
         run: npm run build 2>/dev/null || true
       
       - name: Create Release Pull Request or Publish
-        uses: changesets/action@v2.0.0
+        uses: changesets/action@v2.1.0
         with:
           publish: npm publish --provenance --access public
           version: npm run changeset version
